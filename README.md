@@ -1,4 +1,4 @@
-### scrape-imdb
+### imdb-scrape
 scraping imdb using:
  - cheerio
  - axios
