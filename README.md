@@ -10,7 +10,7 @@ npm i
 ```
 ### API
 scrape Movie metadata (name, release year, rating) 
-> http://localhost:<port>/scrape/imdb/movies/movieId?
+> http://localhost:<<port>>/scrape/imdb/movies/movieId?
 
 where ***movieId*** is the id on imdb (e.g. tt0059113)
 
