@@ -15,7 +15,7 @@ npm start
 ```
 ### API
 scrape Movie metadata (name, release year, rating) 
-> /scrape/imdb/movies/:movieId
+> /scrape/imdb/getMoviesMetadata/:movieId
 
 where ***movieId*** is the id on imdb (e.g. tt0059113)
 
