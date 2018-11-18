@@ -1,10 +1,12 @@
 'use strict'
 
 const express = require('express')
+const axios = require('axios')
 const ScrapeController = require('./scrape-controller')
-const scrapeService = require('./scrape-service')
+const ScrapeService = require('./scrape-imdb-client')
 
 const router = express.Router()
+const scrapeService = new ScrapeService(axios)
 const scrapeController = new ScrapeController(scrapeService)
 
 router.get('/ping', (req, res) => {

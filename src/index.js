@@ -1,3 +1,3 @@
 'use strict'
-const routes = require('./scrape')
-module.exports = routes
+const {routes, schema, root} = require('./scrape')
+module.exports = {routes, schema, root}

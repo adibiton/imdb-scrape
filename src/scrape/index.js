@@ -1,3 +1,4 @@
 'use strict'
 const routes = require('./scrape-routes')
-module.exports = routes
+const {schema, root} = require('./scrape-graphql')
+module.exports = {routes, schema, root}

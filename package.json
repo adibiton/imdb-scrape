@@ -2,11 +2,16 @@
   "name": "scrape-imdb",
   "version": "1.0.0",
   "scripts": {
-    "start": "node app.js"
+    "start": "node -r dotenv/config app.js"
   },
   "dependencies": {
     "axios": "~0.18.0",
     "cheerio": "~1.0.0-rc.2",
-    "express": "~4.16.4"
+    "express": "~4.16.4",
+    "express-graphql": "~0.7.1",
+    "graphql": "~14.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "~6.1.0"
   }
 }
